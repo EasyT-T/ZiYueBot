@@ -2,7 +2,6 @@ using System.Text.RegularExpressions;
 using log4net;
 using MySql.Data.MySqlClient;
 using ZiYueBot.Core;
-using ZiYueBot.General;
 
 namespace ZiYueBot.Utils;
 

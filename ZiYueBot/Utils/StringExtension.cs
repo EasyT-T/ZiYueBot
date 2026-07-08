@@ -1,5 +1,3 @@
-using ZiYueBot.Core;
-
 namespace ZiYueBot.Utils;
 
 public static class StringExtension

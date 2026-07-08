@@ -1,7 +1,6 @@
 using System.Text;
 using System.Text.RegularExpressions;
 using ZiYueBot.Core;
-using ZiYueBot.Discord;
 
 namespace ZiYueBot.Utils;
 

@@ -2,7 +2,6 @@ using log4net;
 using ZiYueBot.Core;
 using ZiYueBot.Discord;
 using ZiYueBot.QQ;
-using ZiYueBot.Utils;
 
 namespace ZiYueBot.Harmony;
 

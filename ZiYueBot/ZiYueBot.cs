@@ -2,14 +2,12 @@
 using Discord.Net.WebSockets;
 using Discord.WebSocket;
 using ZiYueBot.Discord;
-using ZiYueBot.QQ;
 using log4net;
 using System.Net;
 using System.Net.WebSockets;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
-using Discord.Net.Rest;
 using MySql.Data.MySqlClient;
 using ZiYueBot.Core;
 

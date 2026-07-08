@@ -1,6 +1,5 @@
 ﻿using COSXML;
 using COSXML.Auth;
-using COSXML.Model;
 using COSXML.Model.Object;
 using log4net;
 using SkiaSharp;
