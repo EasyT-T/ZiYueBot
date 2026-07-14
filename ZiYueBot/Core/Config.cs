@@ -8,22 +8,23 @@
 [Serializable]
 public struct Config
 {
-    public string DiscordProxy { get; init; }
-    public string DiscordToken { get; init; }
-    public string DatabaseSource { get; init; }
-    public int DatabasePort { get; init; }
-    public string DatabaseName { get; init; }
-    public string DatabaseUser { get; init; }
-    public string DatabasePassword { get; init; }
-    public string BailianApiEndpoint { get; init; }
-    public string BailianApiKey { get; init; }
-    public string QqEventEndpoint { get; init; }
-    public string QqEventAuthenticate { get; init; }
-    public string QqApiEndpoint { get; init; }
-    public string QqApiAuthenticate { get; init; }
-    public string AssetsEndpoint { get; init; }
-    public string AssetsUploadRegion { get; init; }
-    public string AssetsUploadBucket { get; init; }
-    public string AssetsUploadSecretId { get; init; }
-    public string AssetsUploadSecretKey { get; init; }
+    public string DiscordProxy { get; set; }
+    public string DiscordToken { get; set; }
+    public string DatabaseSource { get; set; }
+    public int DatabasePort { get; set; }
+    public string DatabaseName { get; set; }
+    public string DatabaseUser { get; set; }
+    public string DatabasePassword { get; set; }
+    public string ChatAgentEndpoint { get; set; }
+    public string BailianApiEndpoint { get; set; }
+    public string BailianApiKey { get; set; }
+    public string QqEventEndpoint { get; set; }
+    public string QqEventAuthenticate { get; set; }
+    public string QqApiEndpoint { get; set; }
+    public string QqApiAuthenticate { get; set; }
+    public string AssetsEndpoint { get; set; }
+    public string AssetsUploadRegion { get; set; }
+    public string AssetsUploadBucket { get; set; }
+    public string AssetsUploadSecretId { get; set; }
+    public string AssetsUploadSecretKey { get; set; }
 }
